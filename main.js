@@ -1,4 +1,4 @@
-import "./style.css";
+import "./scss/main.scss";
 import { createHtml } from "./src/js/createHtml";
 import { toggleLightMode } from "./src/js/toggleDarkmode";
 
