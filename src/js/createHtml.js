@@ -28,7 +28,7 @@ export async function createHtml() {
 
     function createTextDiv() {
       const textDiv = document.createElement("div");
-      textDiv.setAttribute("class", "section__article-div");
+      textDiv.setAttribute("class", "section__article-text-container");
       innerArticle.appendChild(textDiv);
       return textDiv;
     }
@@ -37,6 +37,7 @@ export async function createHtml() {
       const linkPlacement = document.createElement("a");
       const linkText = document.createTextNode("Lyssna här");
       linkPlacement.setAttribute("href", podcast.programurl);
+      linkPlacement.setAttribute("class", "section__article-link");
       linkPlacement.setAttribute("tabindex", "1");
       linkPlacement.appendChild(linkText);
       textDiv.appendChild(linkPlacement);
@@ -45,6 +46,7 @@ export async function createHtml() {
     function createImg() {
       const imgPlacement = document.createElement("IMG");
       imgPlacement.setAttribute("src", podcast.socialimage);
+      imgPlacement.setAttribute("class", "section__article-img");
       imgPlacement.setAttribute("width", "100");
       imgPlacement.setAttribute("height", "100");
       innerArticle.appendChild(imgPlacement);
@@ -52,6 +54,7 @@ export async function createHtml() {
 
     function createP() {
       const descPlacement = document.createElement("p");
+      descPlacement.setAttribute("class", "section__article-description");
       const desc = document.createTextNode(podcast.description);
       descPlacement.appendChild(desc);
       textDiv.appendChild(descPlacement);
@@ -59,6 +62,7 @@ export async function createHtml() {
 
     function createHeader() {
       const headerPlacement = document.createElement("h2");
+      headerPlacement.setAttribute("class", "section__article-title");
       const programName = document.createTextNode(podcast.name);
       headerPlacement.appendChild(programName);
       textDiv.appendChild(headerPlacement);
