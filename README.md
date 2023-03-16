@@ -1,18 +1,20 @@
-# SR Humorprogram
+# 📻 SR Humorprogram
+
+## 📜 Beskrivning
 
 En applikation vars syfte är att hämta en lista med humor-podcasts från Sveriges Radios API.
 
-## Screenshot
+## 📷 Screenshot
 
 ![Skärmdump](https://drive.google.com/file/d/1kMhAwPYuuwLY2DxFdPqfkMS_92MDBiS9/view?usp=sharing)
 
-## Tech stack
+## 🚀 Tech stack
 
 **Client:** Vite, Typescript, Scss
 
 ![Vite]https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E ![Typescript]https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white ![Scss]https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white
 
-## Kom igång
+## 🏁 Kom igång
 
 Enklaste är att ladda ner alla dependencies med NPM.
 
@@ -28,7 +30,7 @@ För att sedan starta projektet lokalt:
   npm run dev
 ```
 
-## Uppgifter
+## ☑️ Uppgifter
 
 G
 
@@ -37,10 +39,10 @@ G
 - [x] Enhetlig namngivning i CSS:en
 - [x] Konvertera till TypeScript
 - [x] Enhetlig kodkvalitet
-- [ ] Mobilvyn
-- [ ] Språk
+- [x] Mobilvyn
+- [x] Språk
 - [ ] Rensa loggning
-- [ ] Dokumentation
+- [x] Dokumentation
 - [ ] Tillgänglighet (bilder)
 - [ ] Refaktorera funktioner
 - [ ] Eliminera onödig kod
