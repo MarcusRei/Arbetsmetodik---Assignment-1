@@ -1,3 +1,9 @@
+# SR Humorprogram
+
+En applikation vars syfte är att hämta en lista med humor-podcasts från Sveriges Radios API.
+
+## Uppgifter
+
 G
 
 - [x] Få projektet att funka
