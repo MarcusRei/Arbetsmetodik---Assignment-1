@@ -12,13 +12,13 @@ En applikation vars syfte är att hämta en lista med humor-podcasts från Sveri
 
 **Client:** Vite, Typescript, Scss
 
-![Vite]https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E ![Typescript]https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white ![Scss]https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white
+![Vite]({https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E}) ![Typescript]({https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white}) ![Scss]({https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white})
 
 ## 🏁 Kom igång
 
 Enklaste är att ladda ner alla dependencies med NPM.
 
-![NPM]https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white
+![NPM]({https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white})
 
 ```bash
   npm i
