@@ -2,8 +2,6 @@ import { getPodcasts } from './api';
 
 const podCastContainer = document.querySelector('.section__podlist-pods');
 
-let i = 0;
-
 function createInnerArticle() {
   const innerArticle = document.createElement('article');
   innerArticle.setAttribute('class', 'section__article-innerarticle');
@@ -12,11 +10,11 @@ function createInnerArticle() {
   return innerArticle;
 }
 
-function createTextDiv(innerArticle) {
-  const textDiv = document.createElement('div');
-  textDiv.setAttribute('class', 'section__article-text-container');
-  innerArticle.appendChild(textDiv);
-  return textDiv;
+function createTextContainer(innerArticle) {
+  const textContainer = document.createElement('div');
+  textContainer.setAttribute('class', 'section__article-text-container');
+  innerArticle.appendChild(textContainer);
+  return textContainer;
 }
 
 function createImg(podcast, innerArticle) {
@@ -37,7 +35,7 @@ function createHeader(podcast, textDiv) {
   textDiv.appendChild(headerPlacement);
 }
 
-function createP(podcast, textDiv) {
+function createDescription(podcast, textDiv) {
   const descPlacement = document.createElement('p');
   descPlacement.setAttribute('class', 'section__article-description');
   const desc = document.createTextNode(podcast.description);
@@ -62,10 +60,10 @@ export async function createHtml() {
 
     createImg(podcast, innerArticle);
 
-    const textDiv = createTextDiv(innerArticle);
+    const textDiv = createTextContainer(innerArticle);
 
     createHeader(podcast, textDiv);
-    createP(podcast, textDiv);
+    createDescription(podcast, textDiv);
     createLink(podcast, textDiv);
   });
 }
