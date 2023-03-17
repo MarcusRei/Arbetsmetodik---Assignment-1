@@ -48,7 +48,6 @@ function createLink(podcast, textDiv) {
   const linkText = document.createTextNode('Lyssna här');
   linkPlacement.setAttribute('href', podcast.programurl);
   linkPlacement.setAttribute('class', 'section__article-link');
-  linkPlacement.setAttribute('tabindex', '1');
   linkPlacement.appendChild(linkText);
   textDiv.appendChild(linkPlacement);
 }
