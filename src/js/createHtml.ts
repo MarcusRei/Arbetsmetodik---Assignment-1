@@ -49,6 +49,7 @@ export async function createHtml() {
       imgPlacement.setAttribute('class', 'section__article-img');
       imgPlacement.setAttribute('width', '100');
       imgPlacement.setAttribute('height', '100');
+      imgPlacement.setAttribute('alt', podcast.name);
       innerArticle.appendChild(imgPlacement);
     }
 
