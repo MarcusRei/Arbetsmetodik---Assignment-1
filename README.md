@@ -6,7 +6,7 @@ En applikation vars syfte är att hämta en lista med humor-podcasts från Sveri
 
 ## 📷 Screenshot
 
-![Skärmdump](https://drive.google.com/file/d/1kMhAwPYuuwLY2DxFdPqfkMS_92MDBiS9/view?usp=sharing)
+![Skärmdump](https://ibb.co/QMz2rqN)
 
 ## 🚀 Tech stack
 
