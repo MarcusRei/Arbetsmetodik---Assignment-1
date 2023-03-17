@@ -30,6 +30,12 @@ För att sedan starta projektet lokalt:
   npm run dev
 ```
 
+## Lighthouse rapport
+
+### Local report
+
+![Lighthouse Rapport](https://i.ibb.co/wdZhh39/tinywow-lighthouse-arbetsmetodik-16738347-1.jpg)
+
 ## ☑️ Uppgifter
 
 G
@@ -50,13 +56,13 @@ G
 
 VG
 
-- [ ] Rätt sak på rätt plats
+- [x] Rätt sak på rätt plats
 - [ ] Hantera loggning på ett effektivt sätt
-- [ ] Gör en tillgänglighetsgranskning av sidan
+- [x] Gör en tillgänglighetsgranskning av sidan
 - [x] Utnyttja features i Sass i CSS:en
 - [x] Rensa bort paket som inte används
 - [ ] Hantera fel i API-anropet
-- [ ] Gör en Lighthouse-analys
+- [x] Gör en Lighthouse-analys
 - [ ] Läs av utvecklingsmiljön
 - [ ] Enhetlig syntax i CSS:en
 - [ ] Publicera sidan på GitHub pages
