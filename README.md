@@ -64,5 +64,5 @@ VG
 - [x] Hantera fel i API-anropet
 - [x] Gör en Lighthouse-analys
 - [ ] Läs av utvecklingsmiljön
-- [ ] Enhetlig syntax i CSS:en
+- [x] Enhetlig syntax i CSS:en
 - [ ] Publicera sidan på GitHub pages
