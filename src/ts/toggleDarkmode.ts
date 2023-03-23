@@ -1,4 +1,4 @@
-const toggleLightModeButton = document.querySelector('.toggle-btn');
+const toggleLightModeButton = document.querySelector('.toggle-btn') as HTMLButtonElement;
 toggleLightModeButton.addEventListener('click', toggleLightMode);
 
 export function toggleLightMode() {

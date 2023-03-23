@@ -1,6 +1,6 @@
 import { getPodcasts } from './api';
 
-const podCastContainer = document.querySelector('.section__podlist-pods');
+const podCastContainer = document.querySelector('.section__podlist-pods') as HTMLDivElement;
 
 function createInnerArticle() {
   const innerArticle = document.createElement('article');
