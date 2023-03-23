@@ -1,6 +1,6 @@
 import './scss/main.scss';
-import { createHtml } from './src/js/createHtml';
-import { toggleLightMode } from './src/js/toggleDarkmode';
+import { createHtml } from './src/ts/createHtml';
+import { toggleLightMode } from './src/ts/toggleDarkmode';
 
 function init() {
   toggleLightMode();
