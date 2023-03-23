@@ -12,13 +12,13 @@ En applikation vars syfte är att hämta en lista med humor-podcasts från Sveri
 
 **Client:** Vite, Typescript, Scss
 
-![Vite]({https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E}) ![Typescript]({https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white}) ![Scss]({https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white})
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E) ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![Scss](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 
 ## 🏁 Kom igång
 
 Enklaste är att ladda ner alla dependencies med NPM.
 
-![NPM]({https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white})
+![NPM](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 
 ```bash
   npm i
@@ -29,6 +29,12 @@ För att sedan starta projektet lokalt:
 ```bash
   npm run dev
 ```
+
+## Lighthouse rapport
+
+### Local report
+
+![Lighthouse Rapport](https://i.ibb.co/wdZhh39/tinywow-lighthouse-arbetsmetodik-16738347-1.jpg)
 
 ## ☑️ Uppgifter
 
@@ -41,22 +47,22 @@ G
 - [x] Enhetlig kodkvalitet
 - [x] Mobilvyn
 - [x] Språk
-- [ ] Rensa loggning
+- [x] Rensa loggning
 - [x] Dokumentation
-- [ ] Tillgänglighet (bilder)
-- [ ] Refaktorera funktioner
-- [ ] Eliminera onödig kod
-- [ ] Rensa bort kod som inte ska sättas
+- [x] Tillgänglighet (bilder)
+- [x] Refaktorera funktioner
+- [x] Eliminera onödig kod
+- [x] Rensa bort kod som inte ska sättas
 
 VG
 
-- [ ] Rätt sak på rätt plats
+- [x] Rätt sak på rätt plats
 - [ ] Hantera loggning på ett effektivt sätt
-- [ ] Gör en tillgänglighetsgranskning av sidan
-- [ ] Utnyttja features i Sass i CSS:en
-- [ ] Rensa bort paket som inte används
-- [ ] Hantera fel i API-anropet
-- [ ] Gör en Lighthouse-analys
+- [x] Gör en tillgänglighetsgranskning av sidan
+- [x] Utnyttja features i Sass i CSS:en
+- [x] Rensa bort paket som inte används
+- [x] Hantera fel i API-anropet
+- [x] Gör en Lighthouse-analys
 - [ ] Läs av utvecklingsmiljön
-- [ ] Enhetlig syntax i CSS:en
+- [x] Enhetlig syntax i CSS:en
 - [ ] Publicera sidan på GitHub pages

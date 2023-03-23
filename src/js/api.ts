@@ -1,7 +1,8 @@
+// @ts-ignore
+let apiEndpoint: string = import.meta.env.VITE_APP_SR_API_ENDPOINT;
+
 export async function getPodcasts() {
-  return await fetch(
-    'https://api.sr.se/api/v2/programs/index?programcategoryid=133&format=json&pagination=false&indent=true&filter=program.archived&filterValue=false'
-  )
+  return await fetch(apiEndpoint)
     .then(data => data.json())
     .then(json => json)
     .catch(error => {
